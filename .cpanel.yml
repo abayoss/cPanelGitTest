@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/creasouq/public_html/cPanelGitTesting/
+    - /bin/cp * $DEPLOYPATH
