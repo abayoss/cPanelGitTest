@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="/shared/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/litera/bootstrap.min.css">
+  <style>
+    body {
+    background-color: #e5e5e5;
+    font-family: verdana;
+    }
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+        font-family: verdana;
+    }
+    p {
+        font-family: 'roboto';
+    }
+    [v-cloak] > * {
+        display: none;
+    }
+    [v-cloak]::before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-image: url(../images/loader.svg);
+        background-size: cover;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .bg-black {
+        background-color: #000 !important;
+    }
+    span.no-break {
+        white-space: nowrap;
+    }
+  </style>
+</head>
+
+<body>
+    <!-- * Login screen -->
+    <section class="container">
+        <div class="col-md-6 mx-auto mt-5">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="text-center m-0">
+                        <img src="/shared/images/logos/logoMa.png" width="120px" class="img-fluid" alt="logo">
+                        <img src="/shared/images/logos/logoUNDP.png" width="50px" class="img-fluid" alt="logo">
+                    </h3>
+                    <div class="p-3">
+                        <h4 class="text-muted font-18 m-b-5 text-center">
+                            hhhhhhhhhhhhhhhhh
+                        </h4>
+                        <!-- <p class="text-muted text-center">Sign in to continue.</p> -->
+                        <form class="form-horizontal m-t-30" action="index.html">
+                            <div class="form-group">
+                                <label for="username">Username</label>
+                                <input type="text" class="form-control" autocomplete="username"
+                                    placeholder="Enter username">
+                            </div>
+                            <div class="form-group">
+                                <label for="userpassword">Password</label>
+                                <input type="password" class="form-control" autocomplete="current-password"
+                                    placeholder="Enter password">
+                            </div>
+                            <div class="form-group row m-t-20">
+                                <div class="col-6">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customControlInline">
+                                        <label class="custom-control-label" for="customControlInline">
+                                            Remember me
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <button class="btn btn-primary w-md waves-effect waves-light" type="button">
+                                        Login
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="form-group m-t-10 mb-0 row">
+                                <div class="col-12 m-t-20">
+                                    <a href="pages-recoverpw.html" class="text-muted">
+                                        <i class="mdi mdi-lock"></i> Forgot your password?
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="m-t-40 text-center">
+                        <p class="text-white-50">Don't have an account ?
+                            <a href="pages-register.html" class="text-white">Signup Now</a>
+                        </p>
+                    </div> -->
+        </div>
+    </section>
+</body>
+
+</html>
